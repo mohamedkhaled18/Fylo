@@ -1,0 +1,110 @@
+:root {
+    --dark-background--:#171f2a;
+    --white-background--:#21293c;
+    --blue-color--:#4fc4d5;
+    --dark-white--:#bcc4ce;
+    --footer-color--:#0c1524;
+    --green-color--:#62e0d9;
+    --transition--:0.5s ;
+    --font-awesome--:"Font Awesome 5 Free";
+    --form-color--:#1c2230;
+    --padding--:50px;
+}
+/* Colors */
+.c-green{
+    color: #62e0d9;
+}
+.bg-dark{
+    background-color: #171f2a;
+}
+.bg-white {
+    background-color:var(--white-background--);
+}
+.bg-form {
+    background-color: var(--form-color--);
+}
+.bg-foot {
+    background-color: var(--footer-color--);
+}
+/* -------------------- */
+/* Start Margin + Padding */
+.mt-0 {
+    margin-top: 0;
+}
+.mt-5 {
+    margin-top: 5;
+}
+.mt-10 {
+    margin-top: 10;
+}
+.mt-15 {
+    margin-top: 15;
+}
+.mt-30 {
+    margin-top: 30px;
+}
+.mb-0 {
+    margin-bottom: 0;
+}
+.mb-5 {
+    margin-bottom: 5px;
+}
+.mb-10 {
+    margin-bottom: 10px;
+}
+.mb-15 {
+    margin-bottom: 15px;
+}
+.p-10{
+    padding: 10px;
+}
+.p-15 {
+    padding: 15px;
+}
+.p-20 {
+    padding: 20px;
+}
+/* End Margin + Padding */
+.d-grid {
+    display: grid;
+}
+.d-flex {
+    display: flex;
+}
+/* Start Components */
+.bet-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.around-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.align-c {
+    display: flex;
+    align-items: center;
+}
+.align-c-c{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+/* End Components */
+.p-relative {
+    position: relative;
+}
+/* Start Text */
+.txt-c {
+    text-align: center;
+}
+.fs-14 {
+    font-size: 14px;
+}
+/* End Text */
+.c-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
